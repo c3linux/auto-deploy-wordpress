@@ -6,4 +6,6 @@
  */
 require_once dirname(__DIR__) . '/vendor/autoload.php';
 require_once dirname(__DIR__) . '/config/application.php';
+define('WP_SITEURL', 'https://auto-deploy-wordpress-gbz22.ondigitalocean.app/');
+define('WP_HOME',    'https://auto-deploy-wordpress-gbz22.ondigitalocean.app/wp');
 require_once ABSPATH . 'wp-settings.php';
